@@ -15,7 +15,7 @@ import { SpeakerListModule } from '../speaker-list/speaker-list.module';
 
 @NgModule({
   imports: [
-    HomModule,
+    HomeModule,
     AboutModule,
     CommonModule,
     IonicModule,
