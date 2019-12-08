@@ -10,6 +10,15 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
+        path: 'home',
+        children: [
+          {
+            path: '',
+            loadChildren: () => import('../home/home.module').then(m => m.HomeModule)
+          }
+        ]
+      },
+      {
         path: 'schedule',
         children: [
           {

@@ -5,6 +5,7 @@ import { IonicModule } from '@ionic/angular';
 import { TabsPage } from './tabs-page';
 import { TabsPageRoutingModule } from './tabs-page-routing.module';
 
+import { HomeModule } from '../home/home.module';
 import { AboutModule } from '../about/about.module';
 import { MapModule } from '../map/map.module';
 import { ScheduleModule } from '../schedule/schedule.module';
@@ -14,6 +15,7 @@ import { SpeakerListModule } from '../speaker-list/speaker-list.module';
 
 @NgModule({
   imports: [
+    HomModule,
     AboutModule,
     CommonModule,
     IonicModule,
