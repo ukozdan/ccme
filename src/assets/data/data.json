@@ -403,7 +403,7 @@
     }
   ],
 
-  /*"map": [
+  "map": [
     {
       "name": "Monona Terrace Convention Center",
       "lat": 43.071584,
@@ -420,7 +420,7 @@
       "lat": 43.07336,
       "lng": -89.38335
     }
-  ],*
+  ],
 
   "tracks": [
     {
