@@ -34,11 +34,11 @@ export class AppComponent implements OnInit {
       url: '/app/tabs/speakers',
       icon: 'contacts'
     },
-    {
+    /*{
       title: 'Map',
       url: '/app/tabs/map',
       icon: 'map'
-    },
+    },*/
     {
       title: 'About',
       url: '/app/tabs/about',

@@ -48,7 +48,7 @@ const routes: Routes = [
           }
         ]
       },
-      {
+      /*{
         path: 'map',
         children: [
           {
@@ -56,7 +56,7 @@ const routes: Routes = [
             loadChildren: () => import('../map/map.module').then(m => m.MapModule)
           }
         ]
-      },
+      },*/
       {
         path: 'about',
         children: [
