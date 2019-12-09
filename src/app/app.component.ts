@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
       url: '/app/tabs/home',
       icon: 'home'
     },
-    {
+    /*{
       title: 'Schedule',
       url: '/app/tabs/schedule',
       icon: 'calendar'
@@ -43,7 +43,7 @@ export class AppComponent implements OnInit {
       title: 'About',
       url: '/app/tabs/about',
       icon: 'information-circle'
-    }
+    }*/
   ];
   loggedIn = false;
   dark = false;
